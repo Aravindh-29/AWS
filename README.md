@@ -233,4 +233,62 @@ echo "✅ Setup complete! App is running and accessible via http://<EC2-Public-I
 * [ ] User-data → installs .NET app on 5000
 
 ---
+**ALB ni Route53 hosted zone lo map cheyyadam step-by-step**.
+---
+
+## 1️⃣ Pre-requisites
+
+* Domain: `aravindh.xyz` (already bought in Dotpapa).
+* Hosted zone: create chesav or AWS create chesindi after NS update.
+* ALB: `dotnet-alb` created already, **DNS name** untundi like:
+
+  ```
+  dotnet-alb-123456789.ap-south-1.elb.amazonaws.com
+  ```
+
+---
+
+## 2️⃣ Route53 lo A Record create cheyyadam
+
+1. **Open AWS Route53** → Hosted Zones → `aravindh.xyz`.
+2. Click **Create Record**.
+3. **Record name:** (blank) for root domain `aravindh.xyz`
+   or `www` for `www.aravindh.xyz`.
+4. **Record type:** `A – IPv4 address`.
+5. **Value/Route traffic to:**
+
+   * Select **Alias** → **Application and Classic Load Balancer**.
+   * Choose your region (same region as ALB).
+   * Select your ALB `dotnet-alb`.
+6. TTL: default (60 sec).
+7. Save record.
+
+---
+
+## 3️⃣ Propagation check
+
+* DNS changes may take **a few minutes**.
+* Verify using:
+
+  ```bash
+  nslookup aravindh.xyz
+  nslookup www.aravindh.xyz
+  ```
+* Browser lo open cheyyi: `http://aravindh.xyz` → it should reach ALB → app.
+
+---
+
+## 4️⃣ Optional: Redirect root → www
+
+* Create another **A record** for `www.aravindh.xyz` → ALB.
+* Or create **CNAME** for `www` → root.
+
+---
+
+## 5️⃣ Full flow
+
+🌍 User → DNS lookup (`aravindh.xyz` in Route53) → ALB DNS → Target Group (5000) → App instance.
+
+---
+
 
