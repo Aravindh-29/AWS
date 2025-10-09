@@ -26,7 +26,7 @@ eksctl version
 eksctl create cluster \
 --name DbApp \
 --region ap-south-1 \
--- version 1.31 \
+--version 1.31 \
 --nodegroup-name dbnodegroup \
 --node-type t3.micro \
 --nodes 2 \
