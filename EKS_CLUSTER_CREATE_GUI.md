@@ -284,7 +284,7 @@ mapRoles:
 * Security group behavior
 * And how DevOps teams design multi-AZ resilient clusters.
 
-#STEP 2
+# STEP 2
 
 🔥 Perfect maava 👑 — now let’s dive into
 
