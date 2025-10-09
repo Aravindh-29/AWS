@@ -35,3 +35,12 @@ eksctl create cluster \
 --managed
 
 ```
+
+🧪 After Cluster Creation, Verify It:
+aws eks list-clusters
+eksctl get cluster
+kubectl get nodes
+kubectl get pods -A
+
+
+✅ You should see your worker nodes in Ready state.
