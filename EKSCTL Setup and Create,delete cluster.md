@@ -28,7 +28,7 @@ eksctl create cluster \
 --region ap-south-1 \
 --version 1.31 \
 --nodegroup-name dbnodegroup \
---node-type t3.micro \
+--node-type t3.small \
 --nodes 2 \
 --nodes-min 2 \
 --nodes-max 2 \
