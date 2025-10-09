@@ -1,3 +1,5 @@
+# Powershell commands to install EKCTL
+
 # 📥 Download eksctl
 Invoke-WebRequest "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_Windows_amd64.zip" -OutFile "eksctl.zip"
 
