@@ -886,6 +886,13 @@ Would you like me to also give you a **simple diagram (architecture)** showing h
 
 <img width="1880" height="938" alt="image" src="https://github.com/user-attachments/assets/2f7a796a-0c0a-4578-b5b8-bdf3d7832f22" />
 <img width="1842" height="813" alt="image" src="https://github.com/user-attachments/assets/5661feb7-e5f4-49d6-9a72-a8c4cedd30dd" />
-<img width="2255" height="2930" alt="eks_nodegroup4" src="https://github.com/user-attachments/assets/ea51381e-c9d0-4cec-a1f9-9bb4f7550bd9" />
+<img width="2255" height="1834" alt="eks_nodegroup1" src="https://github.com/user-attachments/assets/5a09e096-4056-4249-9ea6-a71011eeaae3" />
+<img width="2255" height="2338" alt="eks_nodegroup2" src="https://github.com/user-attachments/assets/4bd81ba5-2bf3-48f6-a58f-5f5812d2ef07" />
+<img width="2284" height="1368" alt="eks_nodegroup3" src="https://github.com/user-attachments/assets/a851034d-c86a-441e-a17e-658237d0cfb5" />
+<img width="2255" height="2930" alt="eks_nodegroup4" src="https://github.com/user-attachments/assets/065e1672-19ee-4f7e-9109-a867d987562a" />
+
+
+
+
 
 
