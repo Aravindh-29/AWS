@@ -17,3 +17,21 @@ $env:Path += ";C:\Program Files\Amazon\eksctl"
 
 # ✅ Test installation
 eksctl version
+
+
+# Creating cluster using ekctl
+
+
+```
+eksctl create cluster \
+--name DbApp \
+--region ap-south-1 \
+-- version 1.31 \
+--nodegroup-name dbnodegroup \
+--node-type t3.micro \
+--nodes 2 \
+--nodes-min 2 \
+--nodes-max 2 \
+--managed
+
+```
