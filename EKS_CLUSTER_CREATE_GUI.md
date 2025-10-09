@@ -881,3 +881,11 @@ aws logs describe-log-groups --log-group-name-prefix /aws/eks/
 Would you like me to also give you a **simple diagram (architecture)** showing how all these components (Control plane, Nodes, VPC, NAT, ALB, Ingress, etc.) connect together? 🏗️📈
 
 
+#  NODE GROUP CREATION 
+
+
+<img width="1880" height="938" alt="image" src="https://github.com/user-attachments/assets/2f7a796a-0c0a-4578-b5b8-bdf3d7832f22" />
+<img width="1842" height="813" alt="image" src="https://github.com/user-attachments/assets/5661feb7-e5f4-49d6-9a72-a8c4cedd30dd" />
+<img width="2255" height="2930" alt="eks_nodegroup4" src="https://github.com/user-attachments/assets/ea51381e-c9d0-4cec-a1f9-9bb4f7550bd9" />
+
+
