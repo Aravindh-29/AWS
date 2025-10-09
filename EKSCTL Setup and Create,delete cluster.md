@@ -47,3 +47,23 @@ kubectl get pods -A
 
 
 ✅ You should see your worker nodes in Ready state.
+
+
+# ⚡ Bonus: Quick Delete Command (if needed)
+
+To clean everything created by eksctl:
+```
+eksctl delete cluster --name my-eks-cluster --region ap-south-1
+
+```
+This will:
+
+Delete control plane
+
+Node groups
+
+ENIs created by EKS
+
+VPC (if eksctl created it)
+
+✅ Much cleaner than manual deletion.
