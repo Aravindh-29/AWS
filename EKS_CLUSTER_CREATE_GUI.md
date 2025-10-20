@@ -1,10 +1,5 @@
-🔥 Super Aravindh — below is the **complete one-shot reference guide** for
-👉 *How EKS Cluster Creation Works (Step 1: Configure Cluster)*
-👉 *What happens in the backend*
-👉 *When to use each option*
-👉 *Best DevOps Engineer recommended settings*
+<img width="862" height="730" alt="image" src="https://github.com/user-attachments/assets/c6cfdb06-f42a-4c27-9ac1-8f56225f9993" />
 
-Save or bookmark this — it’s like your **personal DevOps playbook** 🧑‍💻☁️
 
 ---
 
