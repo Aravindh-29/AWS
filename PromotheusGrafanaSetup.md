@@ -33,6 +33,17 @@ helm version
 
 ---
 
+## Download helm
+
+```bash
+# 1️⃣ Download Helm install script
+curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+
+# 2️⃣ Verify installation
+helm version
+
+```
+
 ## 🧭 STEP 3: Add Prometheus Helm Repo and Update
 
 ```powershell
