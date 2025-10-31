@@ -76,6 +76,8 @@ Port-forward the ArgoCD UI:
 
 ```bash
 kubectl port-forward svc/argocd-server -n argocd 8080:443
+
+kubectl port-forward --address 0.0.0.0 svc/argocd-server -n argocd 8082:443
 ```
 ```bash
  ssh -i "C:\Users\nowsh\.ssh\id_ed25519" -N -o ServerAliveInterval=60 -L 8082:localhost:8082 ubuntu@13.233.148.244
